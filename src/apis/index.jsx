@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:2010";
+// const BASE_URL = "http://localhost:2010";
+const BASE_URL = "https://productappbackend-s8ss.onrender.com";
 
 export const login = async (data) => {
   try {
